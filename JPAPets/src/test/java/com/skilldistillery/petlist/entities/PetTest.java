@@ -47,6 +47,7 @@ class PetTest {
 	@Test
 	void test() {
 		assertNotNull(pet);
+		assertEquals(1, pet.getId());
 		assertEquals("Panzer", pet.getName());
 		assertEquals(6, pet.getAge());
 	}
